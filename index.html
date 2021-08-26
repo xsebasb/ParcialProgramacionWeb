@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <title>Reproductor Web</title>
+</head>
+<body>
+    <div class="content">
+        <div class="contenedor">
+            <div class="bloque_uno">
+                <div class="header">
+                    <div class="icono">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                    <div class="logo">
+                        <img class="imagen" src="img/twenty.PNG" alt="">
+                    </div>
+                    <div class="icono">
+                        <i class="fas fa-search "></i>
+                    </div>  
+                </div>
+
+                <div class="content_images">
+
+                </div>
+                <div class="title_twenty">
+                    <img class="imagen_blurry"src="img/title_twenty.PNG" alt="">
+                </div>
+            </div>
+            <div class="bloque_dos">
+                <div class="reproductor">
+                    <h1 class="reproductor__title">STRESSED OUT  </h1>
+                    <h2 class="reproductor__subtitle">twenty one pilots - Blurryface</h2>
+
+                <audio class="player__audio" controls id="audio">
+                    <source src="multimedia/twenty one pilots Stressed Out [OFFICIAL VIDEO].mp3" type="audio/mpeg" />
+                </audio>
+                <div class="player__controls">
+                        <div class="player__btn player__btn--medium" id="backward">
+                        <i class="fas fa-backward tm-i"></i>
+                        </div>
+                
+                        <div class="player__btn player__btn--medium  play" id="play">
+                            <i class="fas fa-play play-btn tm-i"></i>
+                            <i class="fas fa-pause pause-btn hide tm-i"></i>
+                        </div>
+                
+                        <div class="player__btn player__btn--medium" id="forward">
+                        <i class="fas fa-forward tm-i"></i>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <footer class="footer">
+                <div class="icono">
+                        <i class="fas fa-heart color_red"></i>
+                </div>
+                <div class="icono">
+                        <i class="fas fa-random "></i>
+                </div>
+                <div class="icono">
+                    <i class="fas fa-redo-alt color_red"></i>
+                </div>
+                <div class="icono">
+                    <i class="fas fa-ellipsis-h"></i>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+<script src='src/scripts.js'></script>
+</html>
