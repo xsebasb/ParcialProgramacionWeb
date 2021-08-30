@@ -4,3 +4,7 @@
 
 # En la etapa de boceto nuestra primera opción fue la siguiente:
 https://github.com/xsebasb/ParcialProgramacionWeb/issues/1#issue-982291351
+
+En la cual nosotros colocamos un contenedor por cada objeto que existiera en el reproductor.
+Después de pensamos en reducir este de manera que quedo el que utilizamos para desarrollar el parcial:
+
