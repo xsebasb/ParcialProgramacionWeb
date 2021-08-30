@@ -28,7 +28,7 @@ body{
 }
 .bloque_uno{
     height: 450px;
-    background-color: var(--negro);
+    background-color: var(--negro); 
 }
 .header{
     display: flex;
@@ -36,6 +36,8 @@ body{
     height:100px;
 }
 .content_images{
+    display: flex;
+    justify-content:center;
     height:285px;
 }
 .title_twenty{
@@ -155,6 +157,7 @@ body{
     // .content_images{
     //     height:150px;
     // }
+    
     .icono{
         font-size:30px;
     }
@@ -162,6 +165,11 @@ body{
         width:140px;
         height:49px;
     }
+
+    .imagen_caratula{
+
+    }
+
     .imagen_blurry{
         width:140px;
     }

@@ -44,6 +44,8 @@ body {
 }
 
 .content_images {
+  display: flex;
+  justify-content: center;
   height: 285px;
 }
 
@@ -105,6 +107,9 @@ body {
 .reproductor__subtitle {
   font-size: 18px;
   color: #4b4a48;
+}
+.imagen_caratula{
+  height:300px;
 }
 
 /*Reproductor*/
